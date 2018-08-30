@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>부트스트랩의 버튼</title>
+
+        <link rel="stylesheet" href="../style/css/bootstrap.css">
+
+        <script src="../style/js/jquery-3.3.1.js"></script>
+        <script src="../style/js/popper.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <style>
+            .asdf {
+                text-align: right;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="container">
+            <!-- 부트스트랩에서 버튼은 3가지 태그를 이용해서 표현할 수 있음 -->
+            <!-- input 태그의 type=button을 통하여 버튼 사용 -->
+            <!-- html5의 button 태그를 통하여 버튼 사용 -->
+            <!-- a 태그를 class명 btn 을 통하여 버튼 사용 -->
+            <!-- 버튼 역시 부트스트랩 테마 색상을 사용 함 -->
+            <!-- btn-primary, btn-secondary, btn-success, btn-info, btn-warning, btn-danger, btn-dark, btn-light, btn-link -->
+            <article>
+                <h3>부트스트랩의 버튼 색상</h3>
+                <button class="btn">기본 색상 버튼</button>
+                <button class="btn btn-primary">primary 색상 버튼</button>
+                <button class="btn btn-secondary">secondary 색상 버튼</button>
+                <button class="btn btn-success">success 색상 버튼</button>
+                <button class="btn btn-info">info 색상 버튼</button>
+                <input type="button" class="btn btn-warning" value="warning 버튼 색상">
+                <input type="button" value="danger 색상 버튼" class="btn btn-danger">
+                <input type="button" value="dark 색상 버튼" class="btn btn-dark">
+                <input type="button" value="light 색상 버튼" class="btn btn-light">
+                <input type="button" value="link 색상 버튼" class="btn btn-link">
+            </article><hr>
+            <article>
+                <h3>a태그를 이용하여 버튼으로 만들기</h3>
+                <a href="http://www.daum.net" class="btn btn-info">a 태그 버튼</a>
+                <button type="button" class="btn btn-info">button 태그 버튼</button>
+                <input type="button" class="btn btn-info" value="input 태그 버튼">
+                <input type="submit" class="btn btn-info" value="input 태그 submit 버튼">
+            </article><hr>
+            <article>
+                <!-- 기존 색상 테마를 입력하는 형식과 달리 btn-outline-테마색상 으로 색상을 입력함 -->
+                <!-- btn-outline-primary, btn-outline-secondary, btn-outline-success, btn-outline-info, btn-outline-warning, btn-outline-danger, btn-outline-dark, btn-outline-light -->
+                <h3>outline 버튼 만들기</h3>
+                <button type="button" class="btn btn-outline-primary">Primary 버튼</button>
+                <button type="submit" class="btn btn-outline-secondary">Secondary 버튼</button>
+                <button type="reset" class="btn btn-outline-success">Success 버튼</button>
+                <input type="button" class="btn btn-outline-info" value="Info 버튼">
+                <input type="submit" class="btn btn-outline-warning" value="Warning 버튼">
+                <input type="reset" class="btn btn-outline-danger" value="Danger 버튼">
+                <a href="#" class="btn btn-outline-dark">Dark 버튼</a>
+                <a href="#" class="btn btn-outline-light text-dark">Light 버튼</a>
+            </article><hr>
+            <article>
+                <!-- 부트스트랩에서 버튼의 크기를 설정하기 위한 클래스 명이 존재함 -->
+                <!-- btn-sm, btn-lg -->
+                <h3>버튼 크기 설정</h3>
+                <button class="btn btn-success btn-sm">작은 크기 버튼</button>
+                <input type="button" class="btn btn-success" value="기본 크기 버튼">
+                <a href="#" class="btn btn-success btn-lg">큰 크기 버튼</a>
+            </article><hr>
+            <article>
+                <!-- 기본 inline 레벨 태그인 버튼을 block 레벨 태그로 변환하여 하나의 라인 전체 크기의 버튼으로 변경 함 -->
+                <!-- class명에 btn-block 만 입력하면 됨 -->
+                <h3>블록 레벨 버튼</h3>
+                <button class="btn btn-primary btn-sm btn-block asdf">작은 크기의 블록 레벨 버튼</button>
+                <button class="btn btn-outline-success btn-sm btn-block">작은 크기의 outline 블록 레벨 버튼</button>
+                <input type="button" class="btn btn-info btn-block" value="기본 크기의 블록 레벨 버튼">
+                <input type="button" class="btn btn-outline-secondary btn-block" value="기본 크기의 outline 블록 레벨 버튼">
+                <a href="#" class="btn btn-warning btn-lg btn-block">큰 크기의 블록 레벨 버튼</a>
+                <a href="#" class="btn btn-outline-danger btn-lg btn-block">큰 크기의 outline 블록 레벨 버튼</a>
+            </article><hr>
+            <article>
+                <!-- 부트스트랩이 적용된 모든 태그에 통일된 형식의 active/disable을 적용함 -->
+                <!-- 활성화는 class에 active를 입력 -->
+                <!-- 비활성화는 태그의 속성으로 disabled를 입력해야 함 -->
+                <!-- disabled="disabled" 이나 disabled 만 입력-->
+                <h3>버튼의 활성/비활성</h3>
+                <button class="btn btn-primary">기본 형태 버튼</button>
+                <button class="btn btn-primary active">활성화된 버튼</button>
+                <button class="btn btn-info" disabled>비활성화된 버튼</button>
+                <button class="btn btn-warning" disabled="disabled">비활성화의 다른 방식 버튼</button>
+                <!-- a 태그의 경우는 disabled 속성으로 비활성화가 되지 않기 때문에 반드시 class명에 disabled를 입력해야 함 -->
+                <a href="#" class="btn btn-danger disabled">a태그를 사용한 비활성화</a>
+            </article>
+        </section>
+        <br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
