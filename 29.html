@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>부트스트랩의 미디어 오브젝트</title>
+
+        <link rel="stylesheet" href="../style/css/bootstrap.css">
+
+        <script src="../style/js/jquery-3.3.1.js"></script>
+        <script src="../style/js/popper.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="container">
+            <article>
+                <!-- div의 class명에 media를 입력하여 사용 -->
+                <!--  -->
+                <h3>media object 사용</h3>
+                <div class="media border p-3">
+                    <img src="../img/pic1.jpg" alt="" class="mr-3 mt03 rounded-circle" style="width: 60px;">
+                    <div class="media-body">
+                        <h4>홍길동 <span><i>Post on 2018-09-04</i></span></h4>
+                        <p>되는 청춘의 열매를 가슴이 너의 우리 그들에게 우리의 것이 것이다. 얼음에 영원히 남는 피어나기 것이다. 군영과 가슴이 곧 든 유소년에게서 하는 무엇이 것이다.</p>
+                    </div>
+                </div>
+
+            </article><hr>
+            <article>
+                <div class="media border p-3">
+                    <img src="../img/pic1.jpg" alt="" class="mr-3 mt-3 rounded-circle" style="width: 60px;">
+                    <div class="media-body">
+                        <h4>홍길동 <small><i>Posted on 2018-09-04</i></small></h4>
+                        <p>되는 청춘의 열매를 가슴이 너의 우리 그들에게 우리의 것이 것이다. 얼음에 영원히 남는 피어나기 것이다. 군영과 가슴이 곧 든 유소년에게서 하는 무엇이 것이다.</p>
+
+                        <div class="media p-3">
+                            <img src="../img/pic2.jpg" alt="" class="mr-3 mt-3 rounded-circle" style="width: 60px;">
+                            <div class="media-body">
+                                <h4>정우성 <small><i>Posted on 2018-09-04</i></small></h4>
+                                <p>대고, 얼마나 듣기만 황금시대를 가진 때문이다. 보배를 우는 그러므로 끝까지 말이다. 설레는 생생하며, 청춘에서만 커다란 불어 때에, 튼튼하며, 것이다. 커다란 이 곧 거친 생의 발휘하기 것이다.</p>
+
+                                <p>넣는 역사를 심장의 장식하는 가슴에 있는가? 그들에게 그들의 생의 낙원을 새 이상의 밥을 끓는다. 인간의 피가 새 없는 그리하였는가?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article><hr>
+            <article>
+                <!-- 이미지를 오른쪽에 배치할 경우 클래스 명이 따로 있는 것이 아니라 img 태그와 media-body의 순서를 변경하면 됨 -->
+                <h3>media object에서 이미지 오른쪽에 배치</h3>
+                <div class="media border p-3">
+                    <div class="media-body">
+                        <h4>홍길동 <small><i>Posted on 2018-09-04</i></small></h4>
+                        <p>대한민국의 경제질서는 개인과 기업의 경제상의 자유와 창의를 존중함을 기본으로 한다.</p>
+                    </div>
+                    <img src="../img/pic1.jpg" alt="" class="ml-3 mt-3 rounded-circle" style="width: 60px;">
+                </div>
+            </article><hr>
+            <article>
+                <!-- media object 사용 시 img 태그의 표시 위치를 변경하려면 flex 유틸리티를 사용하여 위치를 설정 함 -->
+                <!-- align-self-start, align-self-center, align-self-end -->
+                <h3>media object에서 이미지 위치 설정</h3>
+                <div class="media border p3">
+                    <img src="../img/pic3.jpg" alt="" class="align-self-start mr-3" style="width: 60px;">
+                    <div class="media-body">
+                        <h4>홍길동</h4>
+                        <p>모든 국민은 그 보호하는 자녀에게 적어도 초등교육과 법률이 정하는 교육을 받게 할 의무를 진다. 국가는 건전한 소비행위를 계도하고 생산품의 품질향상을 촉구하기 위한 소비자보호운동을 법률이 정하는 바에 의하여 보장한다. 국가는 사회보장·사회복지의 증진에 노력할 의무를 진다. 법률이 정하는 주요방위산업체에 종사하는 근로자의 단체행동권은 법률이 정하는 바에 의하여 이를 제한하거나 인정하지 아니할 수 있다.</p>
+                    </div>
+                </div>
+                <div class="media border p3">
+                    <img src="../img/pic3.jpg" alt="" class="align-self-center mr-3" style="width: 60px;">
+                    <div class="media-body">
+                        <h4>홍길동</h4>
+                        <p>모든 국민은 그 보호하는 자녀에게 적어도 초등교육과 법률이 정하는 교육을 받게 할 의무를 진다. 국가는 건전한 소비행위를 계도하고 생산품의 품질향상을 촉구하기 위한 소비자보호운동을 법률이 정하는 바에 의하여 보장한다. 국가는 사회보장·사회복지의 증진에 노력할 의무를 진다. 법률이 정하는 주요방위산업체에 종사하는 근로자의 단체행동권은 법률이 정하는 바에 의하여 이를 제한하거나 인정하지 아니할 수 있다.</p>
+                    </div>
+                </div>
+                <div class="media border p3">
+                    <img src="../img/pic3.jpg" alt="" class="align-self-end mr-3" style="width: 60px;">
+                    <div class="media-body">
+                        <h4>홍길동</h4>
+                        <p>모든 국민은 그 보호하는 자녀에게 적어도 초등교육과 법률이 정하는 교육을 받게 할 의무를 진다. 국가는 건전한 소비행위를 계도하고 생산품의 품질향상을 촉구하기 위한 소비자보호운동을 법률이 정하는 바에 의하여 보장한다. 국가는 사회보장·사회복지의 증진에 노력할 의무를 진다. 법률이 정하는 주요방위산업체에 종사하는 근로자의 단체행동권은 법률이 정하는 바에 의하여 이를 제한하거나 인정하지 아니할 수 있다.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
