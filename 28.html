@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>부트스트랩의 스크롤 스파이</title>
+
+        <link rel="stylesheet" href="../style/css/bootstrap.css">
+
+        <script src="../style/js/jquery-3.3.1.js"></script>
+        <script src="../style/js/popper.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                position: relative;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#sec01" class="nav-link">Section01</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sec02" class="nav-link">Section02</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sec03" class="nav-link">Section03</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">Section04</a>
+                    <div class="dropdown-menu">
+                        <a href="#sec41" class="dropdown-item">Link 1</a>
+                        <a href="#sec42" class="dropdown-item">Link 2</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="sec01" class="container-fluid bg-success" style="padding-top:70px; padding-bottom:70px;height: 700px;">
+            <h1>Section 1</h1>
+            <p>보는 그들의 기관과 할지라도 광야에서 사람은 뿐이다. 할지라도 실로 그들의 사막이다. 산야에 불러 무엇이 가슴에 얼음에 웅대한 그들에게 그리하였는가? 피어나는 간에 같은 것이다. 어디 이상의 가는 듣기만 날카로우나 풀이 것이다.보라, 낙원을 봄바람이다.</p>
+
+            <p>싸인 지혜는 이는 위하여서 청춘의 그들은 없는 거선의 것은 약동하다. 내는 거친 바이며, 물방아 같은 그들은 있다. 끓는 구할 미묘한 부패를 군영과 청춘의 용감하고 끓는다. 새 인간이 몸이 트고, 그들의 교향악이다. 봄날의 풀이 투명하되 넣는 창공에 있는가? 기쁘며, 할지니, 안고, 그리하였는가? 우리의 영원히 구하지 주며, 피어나기 예수는 이것이야말로 봄바람이다.</p>
+                    
+            <p>청춘 그러므로 얼음 것이다. 위하여 그것을 찬미를 보내는 것이다. 능히 이상 불러 위하여서, 불어 청춘이 두기 사막이다. 온갖 꽃 찾아 인도하겠다는 얼음과 속에서 사막이다. 실로 영락과 불어 가치를 있을 싹이 이것을 것이다.</p>
+        </div>
+        <div id="sec02" class="container-fluid bg-info" style="padding-top:70px; padding-bottom:70px;height: 700px;">
+            <h1>Section 2</h1>
+            <p>보는 그들의 기관과 할지라도 광야에서 사람은 뿐이다. 할지라도 실로 그들의 사막이다. 산야에 불러 무엇이 가슴에 얼음에 웅대한 그들에게 그리하였는가? 피어나는 간에 같은 것이다. 어디 이상의 가는 듣기만 날카로우나 풀이 것이다.보라, 낙원을 봄바람이다.</p>
+
+            <p>싸인 지혜는 이는 위하여서 청춘의 그들은 없는 거선의 것은 약동하다. 내는 거친 바이며, 물방아 같은 그들은 있다. 끓는 구할 미묘한 부패를 군영과 청춘의 용감하고 끓는다. 새 인간이 몸이 트고, 그들의 교향악이다. 봄날의 풀이 투명하되 넣는 창공에 있는가? 기쁘며, 할지니, 안고, 그리하였는가? 우리의 영원히 구하지 주며, 피어나기 예수는 이것이야말로 봄바람이다.</p>
+                    
+            <p>청춘 그러므로 얼음 것이다. 위하여 그것을 찬미를 보내는 것이다. 능히 이상 불러 위하여서, 불어 청춘이 두기 사막이다. 온갖 꽃 찾아 인도하겠다는 얼음과 속에서 사막이다. 실로 영락과 불어 가치를 있을 싹이 이것을 것이다.</p>
+        </div>
+        <div id="sec03" class="container-fluid bg-warning" style="padding-top:70px; padding-bottom:70px;height: 700px;">
+            <h1>Section 3</h1>
+            <p>보는 그들의 기관과 할지라도 광야에서 사람은 뿐이다. 할지라도 실로 그들의 사막이다. 산야에 불러 무엇이 가슴에 얼음에 웅대한 그들에게 그리하였는가? 피어나는 간에 같은 것이다. 어디 이상의 가는 듣기만 날카로우나 풀이 것이다.보라, 낙원을 봄바람이다.</p>
+
+            <p>싸인 지혜는 이는 위하여서 청춘의 그들은 없는 거선의 것은 약동하다. 내는 거친 바이며, 물방아 같은 그들은 있다. 끓는 구할 미묘한 부패를 군영과 청춘의 용감하고 끓는다. 새 인간이 몸이 트고, 그들의 교향악이다. 봄날의 풀이 투명하되 넣는 창공에 있는가? 기쁘며, 할지니, 안고, 그리하였는가? 우리의 영원히 구하지 주며, 피어나기 예수는 이것이야말로 봄바람이다.</p>
+                    
+            <p>청춘 그러므로 얼음 것이다. 위하여 그것을 찬미를 보내는 것이다. 능히 이상 불러 위하여서, 불어 청춘이 두기 사막이다. 온갖 꽃 찾아 인도하겠다는 얼음과 속에서 사막이다. 실로 영락과 불어 가치를 있을 싹이 이것을 것이다.</p>
+        </div>
+        <div id="sec41" class="container-fluid bg-primary" style="padding-top:70px; padding-bottom:70px;height: 700px;">
+            <h1>Section 4-1</h1>
+            <p>보는 그들의 기관과 할지라도 광야에서 사람은 뿐이다. 할지라도 실로 그들의 사막이다. 산야에 불러 무엇이 가슴에 얼음에 웅대한 그들에게 그리하였는가? 피어나는 간에 같은 것이다. 어디 이상의 가는 듣기만 날카로우나 풀이 것이다.보라, 낙원을 봄바람이다.</p>
+
+            <p>싸인 지혜는 이는 위하여서 청춘의 그들은 없는 거선의 것은 약동하다. 내는 거친 바이며, 물방아 같은 그들은 있다. 끓는 구할 미묘한 부패를 군영과 청춘의 용감하고 끓는다. 새 인간이 몸이 트고, 그들의 교향악이다. 봄날의 풀이 투명하되 넣는 창공에 있는가? 기쁘며, 할지니, 안고, 그리하였는가? 우리의 영원히 구하지 주며, 피어나기 예수는 이것이야말로 봄바람이다.</p>
+                    
+            <p>청춘 그러므로 얼음 것이다. 위하여 그것을 찬미를 보내는 것이다. 능히 이상 불러 위하여서, 불어 청춘이 두기 사막이다. 온갖 꽃 찾아 인도하겠다는 얼음과 속에서 사막이다. 실로 영락과 불어 가치를 있을 싹이 이것을 것이다.</p>
+        </div>
+        <div id="sec42" class="container-fluid bg-danger" style="padding-top:70px; padding-bottom:70px;height: 700px;">
+            <h1>Section 4-2</h1>
+            <p>보는 그들의 기관과 할지라도 광야에서 사람은 뿐이다. 할지라도 실로 그들의 사막이다. 산야에 불러 무엇이 가슴에 얼음에 웅대한 그들에게 그리하였는가? 피어나는 간에 같은 것이다. 어디 이상의 가는 듣기만 날카로우나 풀이 것이다.보라, 낙원을 봄바람이다.</p>
+
+            <p>싸인 지혜는 이는 위하여서 청춘의 그들은 없는 거선의 것은 약동하다. 내는 거친 바이며, 물방아 같은 그들은 있다. 끓는 구할 미묘한 부패를 군영과 청춘의 용감하고 끓는다. 새 인간이 몸이 트고, 그들의 교향악이다. 봄날의 풀이 투명하되 넣는 창공에 있는가? 기쁘며, 할지니, 안고, 그리하였는가? 우리의 영원히 구하지 주며, 피어나기 예수는 이것이야말로 봄바람이다.</p>
+
+            <p>청춘 그러므로 얼음 것이다. 위하여 그것을 찬미를 보내는 것이다. 능히 이상 불러 위하여서, 불어 청춘이 두기 사막이다. 온갖 꽃 찾아 인도하겠다는 얼음과 속에서 사막이다. 실로 영락과 불어 가치를 있을 싹이 이것을 것이다.</p>
+        </div>
+    </body>
+</html>
